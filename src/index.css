@@ -1,0 +1,13 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/125/original/pexels-eberhard-grossgasteiger-1287142.jpg?1709247079);
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+}
+.weather-app {
+  background: #d9cef2;
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 45px;
+  box-shadow: 0 30px 50px rgba(46, 35, 71, 0.08);
+  border-radius: 16px;
+}
