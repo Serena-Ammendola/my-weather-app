@@ -15,22 +15,26 @@
 <body>
   <div class="weather-app">
     <header>
-      <form>
-        <input type="search" placeholder="Enter a city.." required />
-        <input type="submit" value="search" />
+      <form class="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-input" />
+        <input type="submit" value="Search" class="search-submit" />
       </form>
     </header>
     <main>
-      <div>
-        <h1>Dublin</h1>
-        <p>
-          Wednesday 19:17, scattered clouds
-          <br />
-          Humidity: 86%, Wind: 3.6km/h
-        </p>
-      </div>
-      <div>
-        🌤️ 10°C
+      <div class="weather-data">
+        <div>
+          <h1 class="weather-city">Dublin</h1>
+          <p class="weather-details">
+            Wednesday 19:17, scattered clouds
+            <br />
+            Humidity: <strong>86%</strong>, Wind: <strong>3.6km/h</strong>
+          </p>
+        </div>
+        <div class="weather-temperature-data">
+          <div class="weather-icon">🌤️</div>
+          <div class="weather-temperature">10</div>
+          <div class="weather-temperature-unit">°C</div>
+        </div>
       </div>
     </main>
 
