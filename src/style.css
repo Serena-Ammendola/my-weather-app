@@ -54,17 +54,17 @@ header {
   display: flex;
 }
 .weather-icon {
-  font-size: 40px;
-  margin-top: 30px;
+  width: 88px;
+  height: 88px;
 }
 .weather-temperature {
   font-size: 88px;
   font-weight: bold;
-  margin-left: 10px;
+  line-height: 88px;
 }
 .weather-temperature-unit {
   font-size: 20px;
-  margin-top: 25px;
+  margin-top: 6px;
 }
 main {
   padding: 25px 0;
